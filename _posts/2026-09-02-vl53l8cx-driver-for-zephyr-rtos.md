@@ -219,7 +219,7 @@ CONFIG_ST_VL53L8CX_MODE_CONTINUOUS=y
 CONFIG_ST_VL53L8CX_RANGING_FREQUENCY=15
 ```
 
-![VL53L8CX distance capture](assets/lib/vl53l8cx-driver-for-zephyr-rtos/capture.gif)
+![VL53L8CX distance capture](assets/posts/vl53l8cx-driver-for-zephyr-rtos/capture.gif)
 
 *Figure: Real-time distance matrix output from the VL53L8CX as printed by a Python visualization script, with a hand passing in front of the sensor during the capture.*
 
