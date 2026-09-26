@@ -101,7 +101,7 @@ To see how this performs in the real world, we aimed the sensor at a wall approx
 
 ### Scenario 1: Fast Response (Buffer = 4, EMA Shift = 1)
 
-![Filtering with 1/2 EMA and 4-slot buffer](assets/posts/silencing-the-noise-a-practical-guide-to-sensor-filtering-in-embedded-systems/1_4.png){: .d-block .mx-auto style="width: 65%;" }
+<img src="{{ '/assets/posts/silencing-the-noise-a-practical-guide-to-sensor-filtering-in-embedded-systems/1_4.png' | relative_url }}" alt="Filtering with 1/2 EMA and 4-slot buffer" style="display: block; width: 65%; margin-left: auto; margin-right: auto;">
 _Filtering with a 1/2 EMA and 4-slot buffer_
 
 For the first test, we used a small buffer of 4 slots for the median filter (fast update) and an EMA shift of 1 (which gives a 50% weight, or $1/2$, to the new measurement).
@@ -119,7 +119,7 @@ Notice how the averages remain practically identical, meaning we haven't skewed 
 
 ### Scenario 2: Heavy Smoothing (Buffer = 8, EMA Shift = 2)
 
-![Filtering with 1/4 EMA and 8-slot buffer](assets/posts/silencing-the-noise-a-practical-guide-to-sensor-filtering-in-embedded-systems/2_8.png){: .d-block .mx-auto style="width: 65%;" }
+<img src="{{ '/assets/posts/silencing-the-noise-a-practical-guide-to-sensor-filtering-in-embedded-systems/2_8.png' | relative_url }}" alt="Filtering with 1/4 EMA and 8-slot buffer" style="display: block; width: 65%; margin-left: auto; margin-right: auto;">
 _Filtering with a 1/4 EMA and 8-slot buffer_
 
 Next, we tweaked the parameters to favor smoothness over speed. We doubled the median buffer to 8 slots, and increased the EMA shift to 2 (giving a 25%, or $1/4$, weight to new measurements).
