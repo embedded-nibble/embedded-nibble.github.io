@@ -2,6 +2,10 @@
 layout: post
 title: 'C''s Silent Traps: Integer Promotion and Sign Casting in Embedded Firmware'
 date: 2026-09-11 14:56 -0400
+categories: [Firmware, C/C++]
+tags: [embedded, firmware, c, integer promotion, sign casting]
+description: "Learn how to avoid C's silent traps in embedded firmware, including integer promotion, sign casting, and undefined behavior, to write safer and more reliable code."
+toc: true
 ---
 
 # C's Silent Traps: Integer Promotion and Sign Casting in Embedded Firmware
